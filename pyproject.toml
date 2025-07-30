@@ -1,0 +1,13 @@
+[project]
+name = "mutnav"
+version = "0.1.0"
+description = "A simple MCP service for exploring SSM data from ICGC"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyterlab>=4.4.5",
+    "mcp[cli]>=1.10.1",
+    "pandas>=2.3.0",
+    "pygeneconverter>=0.3",
+    "pyvcf3>=1.0.4",
+]
